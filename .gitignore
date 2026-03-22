@@ -1,0 +1,56 @@
+# =========================
+# BACKEND (Spring Boot)
+# =========================
+
+# Sensitive config
+application.properties
+
+# Maven build
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+.vscode/
+
+.classpath
+.project
+.settings/
+
+# Logs
+*.log
+
+# =========================
+# FRONTEND (React)
+# =========================
+
+node_modules/
+build/
+dist/
+
+# Env files (IMPORTANT)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Coverage
+coverage/
+
+# Misc
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# OPTIONAL
+# =========================
+
+# OS files
+Thumbs.db
