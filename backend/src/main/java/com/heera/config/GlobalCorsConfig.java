@@ -19,7 +19,8 @@ public class GlobalCorsConfig {
         configuration.setAllowedOrigins(Arrays.asList(
                 "http://localhost:3000",
                 "http://localhost:3001",
-                "http://10.250.86.124:3000"
+                "http://10.250.86.124:3000",
+                "https://mindsutra-frontend.vercel.app"
         ));
 
         configuration.setAllowedMethods(Arrays.asList(
